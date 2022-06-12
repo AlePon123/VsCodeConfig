@@ -1,0 +1,215 @@
+{
+    "security.workspace.trust.enabled": false,
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "window.enableMenuBarMnemonics": false,
+    "window.menuBarVisibility": "hidden",
+    "window.newWindowDimensions": "maximized",
+    "window.restoreWindows": "none",
+    "window.title": "${rootName}",
+    "window.titleBarStyle": "native",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Pale Fire",
+    "workbench.editor.showTabs": false,
+    "workbench.panel.defaultLocation": "right",
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.tree.indent": 16,
+    "workbench.useExperimentalGridLayout": true,
+    "editor.accessibilitySupport": "off",
+    "editor.codeLens": false,
+    "editor.cursorBlinking": "solid",
+    "editor.cursorStyle": "block",
+    "editor.cursorSurroundingLines": 5,
+    "editor.dragAndDrop": false,
+    "editor.fontFamily": "'JetBrains Mono'",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.formatOnType": true,
+    "editor.hover.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.parameterHints.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.roundedSelection": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false,
+    "editor.semanticTokenColorCustomizations": {
+        "[Xcode 11 Default Light]": {
+            "rules": {
+                "unresolvedReference": "#FF0050",
+            },
+        },
+        "[Pale Fire High Contrast]": {
+            "rules": {
+                "unresolvedReference": "#9C6363",
+                "parameter": "#DCDCCC",
+                "property": "#DFAF8F"
+            }
+        }
+    },
+    "editor.inlayHints.enabled": "on",
+    // small gutter
+    // "editor.folding": false,
+    "editor.glyphMargin": false,
+    "editor.lineDecorationsWidth": 0, // undocumented
+    "editor.lineNumbers": "relative",
+    "editor.lineNumbersMinChars": 1, // undocumented
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "on",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.openEditors.visible": 0,
+    "extensions.autoUpdate": true,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    "files.enableTrash": false,
+    "files.hotExit": "off",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.sendKeybindingsToShell": false,
+    "terminal.integrated.commandsToSkipShell": [
+        "language-julia.interrupt",
+        "editor.action.marker.nextInFiles"
+    ],
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "none",
+    "update.showReleaseNotes": false,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "debug.onTaskErrors": "debugAnyway",
+    "remote.SSH.useLocalServer": false,
+    // plugins
+    "typescript.suggest.completeFunctionCalls": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "aceJump.finder.pattern": "[ ,-.*{}_()\"'`<>\\/[:&=|;]",
+    // "aceJump.placeholder.backgroundColor": "#3F3F3F",
+    // "aceJump.placeholder.color": "#BFEBBF",
+    "aceJump.placeholder.upperCase": true,
+    "aceJump.finder.skipSelection": true,
+    "aceJump.scroll.mode": "none",
+    "insertDateString.format": "YYYY-MM-DD HH:MM:00 ZZZZ",
+    "errorLens.exclude": [
+        ".*Unknown word.*"
+    ],
+    "macros": {
+        "closePanelCloseEditorsCloseSidebar": [
+            "workbench.action.closePanel",
+            "workbench.action.closeEditorsInOtherGroups",
+            "workbench.action.closeOtherEditors",
+            "workbench.action.closeSidebar",
+        ],
+        "focusPanelCloseSidebar": [
+            "workbench.action.closeSidebar",
+            "workbench.action.focusPanel",
+        ],
+        "focusFilesExplorerClosePanel": [
+            "workbench.action.closePanel",
+            "workbench.files.action.focusFilesExplorer",
+        ],
+        "magit.status": [
+            "workbench.action.closeSidebar",
+            "workbench.action.closePanel",
+            "magit.status",
+        ],
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "rust-analyzer.completion.callable.snippets": "add_parentheses",
+    "rust-analyzer.callInfo.full": false,
+    "rust-analyzer.checkOnSave.enable": false,
+    "rust-analyzer.server.extraEnv": {
+        "RA_PROFILE": "*>16",
+        // "RA_LOG": "rust_analyzer=info",
+        // "RA_COUNT": "1"
+    },
+    "openInGitHub.defaultRemote": "upstream",
+    "asciidoc.preview.useEditorStyle": false,
+    "center-editor-window.threeStateToggle": true,
+    "magit.forge-enabled": false,
+    "magit.quick-switch-enabled": true,
+    "selectline.alignment": "right",
+    "selectline.displayFormat": "(%d Lines)",
+    "selectline.statusbarPriority": 101,
+    "workbench.colorCustomizations": {
+        "scrollbar.shadow": "#00000000",
+        "widget.shadow": "#00000000",
+    },
+    "cSpell.diagnosticLevel": "Hint",
+    "cSpell.numSuggestions": 3,
+    "cSpell.language": "en,ru",
+    "files.associations": {
+        "*COMMIT_EDITMSG": "git-commit"
+    },
+    "remote.SSH.remotePlatform": {
+        "Ishmael": "linux"
+    },
+    "editor.guides.indentation": false,
+    "rust-analyzer.diagnostics.experimental.enable": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before":[
+                "<S-j>"
+            ],
+            "commands": [
+                "cursorDown",
+                "cursorDown",
+                "cursorDown",
+                "cursorDown",
+                "cursorDown",
+            ]
+        },
+        {
+            "before":[
+                "<S-k>"
+            ],
+            "commands": [
+                "cursorUp",
+                "cursorUp",
+                "cursorUp",
+                "cursorUp",
+                "cursorUp",
+            ]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                "q",
+            ],
+            "commands": [
+                "<gv"
+            ],
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+    },
+}

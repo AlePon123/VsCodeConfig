@@ -1,0 +1,174 @@
+[
+    {
+        "key": "alt+x",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "alt+enter",
+        "command": "editor.action.quickFix",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+u",
+        "command": "rust-analyzer.run"
+    },
+    {
+        "key": "ctrl+alt+shift+g",
+        "command": "macros.magit.status"
+    },
+    {
+        "key": "ctrl+h",
+        "command": "editor.action.formatDocument",
+        "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly && !inCompositeEditor"
+    },
+    {
+        "key": "ctrl+alt+z",
+        "command": "git.revertSelectedRanges"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "editor.action.joinLines",
+        "when": "editorLangId != 'rust'"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "rust-analyzer.joinLines",
+        "when": "editorLangId == 'rust'"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "editor.action.triggerParameterHints",
+        "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    },
+    {
+        "key": "Enter",
+        "command": "rust-analyzer.onEnter",
+        "when": "editorTextFocus && !suggestWidgetVisible && editorLangId == rust"
+    },
+    {
+        "key": "ctrl+alt+shift+c",
+        "command": "workbench.output.action.clearOutput"
+    },
+    {
+        "key": "ctrl+alt+shift+h",
+        "command": "editor.action.showHover",
+        "when": "editorTextFocus"
+    },
+    // Folding
+    {
+        "key": "ctrl+,",
+        "command": "editor.fold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+.",
+        "command": "editor.unfold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "editor.action.revealDefinition",
+        "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "editor.action.goToTypeDefinition",
+        "when": "editorHasTypeDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus && !isInEmbeddedEditor"
+    },
+    {
+        "key": "ctrl+o",
+        "command": "workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "workbench.action.showAllSymbols"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "ctrl+alt+shift+m",
+        "command": "rust-analyzer.parentModule"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "rust-analyzer.matchingBrace"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "center-editor-window.center"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "renameFile",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "editor.action.smartSelect.expand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+e",
+        "command": "workbench.action.closeWindow",
+        "when": "!editorIsOpen && !multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+alt+shift+e",
+        "command": "workbench.action.closeGroup",
+        "when": "editorFocus && activeEditorGroupEmpty && multipleEditorGroups"
+    },
+    {
+        "key": "ctrl+alt+shift+e",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "sideBarFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+e",
+        "command": "workbench.action.closePanel",
+        "when": "panelFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+e",
+        "command": "workbench.action.closeActiveEditor",
+        "when": "!sideBarFocus && !panelFocus"
+    },
+    {
+        "key": "ctrl+alt+shift+3",
+        "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "ctrl+alt+shift+2",
+        "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "alt+f",
+        "command": "macros.focusFilesExplorerClosePanel",
+        "when": "!filesExplorerFocus"
+    },
+    {
+        "key": "alt+f",
+        "command": "workbench.action.toggleSidebarVisibility",
+        "when": "filesExplorerFocus"
+    },
+    {
+        "key": "ff",
+        "command": "macros.focusFilesExplorerClosePanel",
+        "when": "!filesExplorerFocus"
+    }
+]
